@@ -34,6 +34,13 @@
       "description": "Community edition of Mbed OS, an open-source operating system designed for the Internet of Things.",
       "homepage": "https://mbed-ce.dev",
       "title": "Mbed CE"
+    },
+    "zephyr": {
+      "package": "framework-zephyr",
+      "script": "builder/frameworks/zephyr.py",
+      "description": "The Zephyr Project is a scalable real-time operating system (RTOS) supporting multiple hardware architectures, optimized for resource constrained devices, and built with safety and security in mind",
+      "homepage": "https://www.zephyrproject.org",
+      "title": "Zephyr RTOS"
     }
   },
   "packages": {
@@ -43,7 +50,7 @@
       "version": ">=1.90201.0,<1.90302.0"
     },
     "toolchain-rp2040-earlephilhower": {
-      "type": "toolchain", 
+      "type": "toolchain",
       "optional": true,
       "owner": "earlephilhower",
       "version": "https://github.com/maxgerhardt/toolchain-dummy/archive/refs/heads/main.zip"
@@ -77,6 +84,12 @@
       "optional": true,
       "owner": "mbed-ce-project",
       "version": ">=6.99.4"
+    },
+    "framework-zephyr": {
+      "type": "framework",
+      "optional": true,
+      "owner": "platformio",
+      "version": "~3.40300.0"
     },
     "tool-picotool-rp2040-earlephilhower": {
       "type": "uploader",

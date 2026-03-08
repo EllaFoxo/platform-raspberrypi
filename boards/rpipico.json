@@ -32,7 +32,8 @@
     "frameworks": [
         "arduino",
         "picosdk",
-        "mbed-ce"
+        "mbed-ce",
+        "zephyr"
     ],
     "name": "Pico",
     "upload": {

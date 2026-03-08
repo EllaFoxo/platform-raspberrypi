@@ -7,7 +7,7 @@
         "usb_vid": "0x2e8a",
         "usb_pid": "0x000a",
         "usb_manufacturer": "Raspberry Pi",
-        "usb_product": "Pico"        
+        "usb_product": "Pico"
       }
     },
     "core": "arduino",
@@ -30,7 +30,8 @@
   },
   "frameworks": [
     "arduino",
-    "picosdk"
+    "picosdk",
+    "zephyr"
   ],
   "name": "Raspberry Pi Pico",
   "upload": {
